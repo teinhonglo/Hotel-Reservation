@@ -1,0 +1,67 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Hotel</Name>
+    <Description>&lt;沒有可用的描述&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>CSharp</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Hotel</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="css" TargetFolderName="css">
+        <Folder Name="font" TargetFolderName="font">
+          <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.eot">fontawesome-webfont.eot</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.svg">fontawesome-webfont.svg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.ttf">fontawesome-webfont.ttf</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="fontawesome-webfont.woff">fontawesome-webfont.woff</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="FontAwesome.otf">FontAwesome.otf</ProjectItem>
+        </Folder>
+        <Folder Name="images" TargetFolderName="images">
+          <ProjectItem ReplaceParameters="false" TargetFileName="header.jpg">header.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic01.jpg">pic01.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic02.jpg">pic02.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic03.jpg">pic03.jpg</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="pic04.jpg">pic04.jpg</ProjectItem>
+        </Folder>
+        <ProjectItem ReplaceParameters="true" TargetFileName="myStyle.css">myStyle.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="skel-noscript.css">skel-noscript.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style-1000px.css">style-1000px.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style-desktop.css">style-desktop.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style-mobile.css">style-mobile.css</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.cs">Default.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="get_reservation.aspx">get_reservation.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="get_reservation.aspx.cs">get_reservation.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="home_page.aspx">home_page.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="home_page.aspx.cs">home_page.aspx.cs</ProjectItem>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="header.jpg">header.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pic01.jpg">pic01.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pic02.jpg">pic02.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pic03.jpg">pic03.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="pic04.jpg">pic04.jpg</ProjectItem>
+      </Folder>
+      <Folder Name="js" TargetFolderName="js">
+        <ProjectItem ReplaceParameters="true" TargetFileName="html5shiv.js">html5shiv.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="init.js">init.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="skel-panels.min.js">skel-panels.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="skel.min.js">skel.min.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="pay_attention.aspx">pay_attention.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="pay_attention.aspx.cs">pay_attention.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="research_page.aspx">research_page.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="research_page.aspx.cs">research_page.aspx.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.Debug.config">Web.Debug.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="website.publishproj">website.publishproj</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
